@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CART </title>
+        <link rel="stylesheet" type="text/css" href="../css/cart.css">
+        <script type="text/javascript" src="../js/cart.js"></script>
+    </head>
+
+    <body onload="show()">
+        <div class="main">
+
+            <!-- START OF PRODUCT-->
+            <div class="product">
+
+
+                <!--  *******START OF PRODUCT_HEADER******* -->
+                <div class="product_header">
+                    <div class="product_header_title">
+                        My Cart
+                    </div>
+                    <div class="product_header_pincode">
+                        <div class="product_header_pincode_search">
+                            <input type="tel" placeholder="pincode" pattern="[0-9]{3}" required>
+                        </div>
+                        <div class="product_header_pincode_btn">
+                            <button name="btn" onclick="check()"> Check </button>
+                        </div>
+                    </div>
+                </div>
+                <!--  *******END OF PRODUCT_HEADER******* -->
+
+
+                <!--  *******START OF PRODUCT_ITEM******* -->
+                <!-- <div class="product_item">
+                    <div class="product_item_image">
+                        <img src="" class="product_item_image_src">
+                    </div>
+                    <div class="product_item_details">
+                        <div class="product_item_name">
+
+                        </div>
+                        <div class="product_item_price">
+                            
+                        </div>
+                        <div class="product_item_delivery">
+                            
+                        </div>
+                        <div class="product_item_num">
+                            <div class="minus_btn">
+                                <button> - </button>
+                            </div>
+                            <div class="product_item_num_value"> some_variable </div>
+                            <div class="plus_btn">
+                                <button> + </button>
+                            </div>  
+                        </div>
+                    </div>
+                </div> -->
+
+                <!--  *******END OF PRODUCT_ITEM******* -->
+
+                
+            </div>
+            <!--  END OF PRODUCT -->
+
+
+            <!-- START OF PRICE-->
+            <div class="price">
+                <div class="price_header">
+                    <div class="price_header_title" id="example"> Price Details </div>
+                </div>
+                <div class="price_details">
+                    <div class="price_details_total">
+                        <div class="price_details_total_text">
+                                Total Price
+                        </div>
+                        <div class="price_details_total_value">
+
+                        </div> 
+                    </div>
+
+                    <div class="price_details_delivery">
+                        <div class="price_details_delivery_text">
+                                Delivery Charges
+                        </div>
+                        <div class="price_details_delivery_value">
+
+                        </div>  
+                    </div>
+
+                    <div class="price_details_payable">
+                        <div class="price_details_payable_text">
+                                Amount Payable
+                        </div>
+                        <div class="price_details_payable_value">
+
+                        </div> 
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- END OF PRICE-->
+
+        </div>
+    </body>
+</html>
