@@ -3,7 +3,7 @@ var cart = [{"total" : 0, "delivery" : 0, "payable" : 0}];
 
 function show(){
     fetch('http://demo4257344.mockable.io/product.json')
-    .then(res => res.json())
+    .then(res => res.json())    
     .then(data => myData = data)
     .then(myData => {
         for(let i in myData){
